@@ -2,20 +2,45 @@
   <img src="assets/logo.svg" width="96" alt="dsh-market logo">
 </p>
 
-# dsh-market
+# dsh-market · 中文版
 
-[English](README.md) | 中文
+[English](README.en.md) | 中文
 
 [![npm](https://img.shields.io/npm/v/dshmarket)](https://www.npmjs.com/package/dshmarket)
 [![stars](https://img.shields.io/github/stars/dsh-market/dsh-market?style=flat)](https://github.com/dsh-market/dsh-market)
+[![fork](https://img.shields.io/badge/fork-Liinmingyi%2Fdsh--market-2EA043?style=flat)](https://github.com/Liinmingyi/dsh-market)
 
 装在 DeepSeek Harness 里的插件市场。dsh 0.2.1 起它就在 **插件** 页上，是紧挨着 **已安装** 的一个页签；更早的宿主从设置 → **插件市场** 进入。逛一逛，点一下，装好。
+
+> 🍴 **关于本 Fork(中文版)**
+>
+> 这里是 [Liinmingyi](https://github.com/Liinmingyi) 的中文 fork,上游项目为 [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market)。
+>
+> - 首页 README 改为中文,英文原文保留在 [README.en.md](README.en.md)
+> - 首屏截图换成中文界面 `assets/demo-zh.png`,方便对照操作
+> - 新增「一分钟上手」导航,按需求直接跳到对应章节
+> - 应用代码与功能保持与上游一致,安装、升级方式完全不变;问题与建议仍请反馈给上游
 
 > 📡 **同一份目录也是一份插件市场索引。** dsh 0.2.1 起，打开 **插件 → 发现（Discover）→ 索引源（Index sources）**，添加 `https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json`。它就是这份列表的 format 1 索引，放在 npm 上分发，所以在哪里都快——dsh 给索引源的时间只有 15 秒，而 GitHub Pages 上的那两份（`https://awesome-dsh-plugin.com/index.json` 与 `https://dshmarket.com/index.json`）在部分网络下会超过。宿主自己的发现页和 `plugin_market` 智能体工具就能搜索它。
 
 ![dsh-market](assets/demo-zh.png)
 
 主题一键换：装完即生效，点一下切换，不用重启。
+
+## 🧭 一分钟上手
+
+| 我想…… | 直接看 |
+| :--- | :--- |
+| 先把市场装上 | [安装](#安装) |
+| 知道它能做什么 | [你会得到](#你会得到) |
+| 换主题、换皮肤 | [你会得到](#你会得到) 里的「主题」 |
+| 整理装过的插件 | [你会得到](#你会得到) 里的「分组」「备注」 |
+| 换电脑时保留配置 | [你会得到](#你会得到) 里的「备份与恢复」 |
+| 更新插件或市场本身 | [你会得到](#你会得到) 里的「更新」 |
+| 遇到问题要反馈 | [路线图与反馈](#路线图与反馈) |
+| 提交自己的插件 | [提交你的插件](#提交你的插件) |
+
+> 小提示:源码里的功能说明都在「你会得到」一节,按需搜索关键词即可;只想快速用起来,照着「安装」一节的三条命令做就行。
 
 ## 安装
 

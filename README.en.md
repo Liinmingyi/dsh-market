@@ -2,9 +2,9 @@
   <img src="assets/logo.svg" width="96" alt="dsh-market logo">
 </p>
 
-# dsh-market
+# dsh-market (English)
 
-English | [中文](README.zh.md)
+English | [中文](README.md)
 
 [![npm](https://img.shields.io/npm/v/dshmarket)](https://www.npmjs.com/package/dshmarket)
 [![stars](https://img.shields.io/github/stars/dsh-market/dsh-market?style=flat)](https://github.com/dsh-market/dsh-market)
